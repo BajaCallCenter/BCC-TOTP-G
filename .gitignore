@@ -1,0 +1,41 @@
+# Entorno y Dependencias
+node_modules
+/dist
+/dist-ssr
+/venv
+
+# Archivos de Secretos y Configuración Local
+# ¡NUNCA subas estos archivos a tu repositorio!
+.env
+.env.*
+!.env.example
+*.local
+
+# Archivos de Certificados y Claves SSL
+# Estos son sensibles y específicos de tu máquina local
+*-key.pem
+*.pem
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Archivos de Editor y Sistema Operativo
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
