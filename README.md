@@ -102,3 +102,5 @@ git commit  # Finalizar la resolución
 | `git branch -a` | Lista todas las ramas (locales/remotas) |
 | `git fetch --all` | Actualiza referencias de ramas remotas |
 | `git log --oneline --graph` | Ver historial compacto |
+"" 
+"> Test CodeQL check trigger" 
